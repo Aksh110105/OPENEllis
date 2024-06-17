@@ -67,6 +67,8 @@ import static org.mockito.Mockito.mock;
         "org.openelisglobal.systemusermodule.service",
         "org.openelisglobal.login.service",
         "org.openelisglobal.view",
+        "org.openelisglobal.notification.service",
+
 }, excludeFilters = {
         @ComponentScan.Filter(type = FilterType.REGEX, pattern = "org.openelisglobal.patient.controller.*"),
         @ComponentScan.Filter(type = FilterType.REGEX, pattern = "org.openelisglobal.dictionary.controller.*.java"),
