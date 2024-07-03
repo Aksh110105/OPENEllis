@@ -1409,10 +1409,12 @@ public class FhirTransformServiceImpl implements FhirTransformService {
         return provider;
     }
 
-    private void handleException(FhirClientConnectionException e, IPatientUpdate.PatientUpdateStatus status) throws FhirClientConnectionException {
+    private void handleException(FhirClientConnectionException e, IPatientUpdate.PatientUpdateStatus status)
+            throws FhirClientConnectionException {
         Throwable cause = e.getCause();
         if (cause instanceof DataFormatException) {
-            LogEvent.logWarn(e.getMessage(), status.name().toLowerCase(), "Client Registry responds with unsupported data format!");
+            LogEvent.logWarn(e.getMessage(), status.name().toLowerCase(),
+                    "Client Registry responds with unsupported data format!");
         } else {
             throw e;
         }
