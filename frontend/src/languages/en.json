@@ -1208,5 +1208,16 @@
   "systemuserrole.rmpermissions": "Remove Permission",
   "barcode.notification.save": "BarCode Configurations has been saved.",
   "notification.user.post.save.success": "User Information Added Succesfully.",
-  "notification.user.post.delete.success": "User Deactivated Succesfully."
+  "notification.user.post.delete.success": "User Deactivated Succesfully.",
+  "configuration.batch.test.reassignment": "Batch test reassignment and cancelation",
+  "label.button.ok": "Ok",
+  "label.currentTest": "Current test",
+  "label.replaceWith": "Replace with",
+  "label.includeInactiveTests": "Include inactive tests",
+  "label.cancel.test.no.replace": "Cancel test for lab numbers selected, do not assign a new test",
+  "label.checkedWillBeModified": "Checked lab no. will be modified",
+  "label.analysisNotStarted": "Analysis not started",
+  "label.rejectedByBiologist": "Rejected by biologist",
+  "label.rejectedByTechnician": "Rejected by technician",
+  "label.notValidated": "Not validated"
 }
